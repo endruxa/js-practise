@@ -13,11 +13,18 @@
 			height: 50px;
 			background: #f00;
 		}*/
+		.color {
+			background: grey;
+		}
+		.color2 {
+			background: yellow;
+			padding: 10px;
+		}
 	</style>
 </head>
 <body id="body">
     <h1>Мое первое приложение на Java Script<i>!!!</i></h1>
-	<div class="data" id="id1">
+	<div class="data" id="id1" data-date='415456456' onclick="getData('id1')">
 		<p class="data" id="dd1"> 1 </p>
 		<p> 2 hello </p>
 		<p> 3 world</p>
@@ -25,12 +32,12 @@
 		<p> 5 </p>
 		<p class="ff"> 6 hello world</p>
 	</div>
-	<div  class="data tab" id="menu">123</div>
+	<div  class="color2" id="menu">123</div>
 
-	<input type="text" class="data" id="text">
+	<input type="text" class="data" id="text" />
 	<button class="data" disabled>Выполнить</button>
 
-	<script src="/D:/localhost/app/jquery/jquery-3.3.1.min.js"></script>
-	<script src="/D:/localhost/app/js/script.js"></script>
+	<script src="D:/localhost/app/jquery/jquery-3.3.1.min.js"></script>
+	<script src="D:/localhost/script.js"></script>
 </body>
 </HTML>
